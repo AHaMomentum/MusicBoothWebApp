@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body {
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: large;
+}
+
+#logo {
+	text-align: center;
+	width: 50%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+input {
+	padding: 1%;
+	margin: 2% 0;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: large;
+}
+
+.Input {
+	margin: 1% 0;
+	padding: 2%;
+}
+
+.Button {
+	float: inline-end;
+	padding: 2%;
+	border: 2px solid darkseagreen;
+	border-radius: 10%;
+	background-color: darkseagreen;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+	}
+		
+.Button:hover {
+	float: inline-end;
+	padding: 2%;
+	border: 2px solid rgb(73, 137, 91);
+	border-radius: 10%;
+	background-color: seagreen;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+	transition-duration: 1s;
+	}
+
+.Activation {
+	text-align: center;
+	width: 50%;
+	height: 5%;
+	padding: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid rgb(70, 130, 180);
+	border-radius: 25px;
+	background-color: steelblue;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+}
+
+.Activation:hover {
+	text-align: center;
+	width: 50%;
+	height: 5%;
+	padding: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid lightsteelblue;
+	border-radius: 25px;
+	background-color: lightsteelblue;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+	transition-duration: 1s;
+}
+
+table {
+	width: 95%;
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+th, td {
+	padding: 1%;
+	border: 1px solid black;
+}

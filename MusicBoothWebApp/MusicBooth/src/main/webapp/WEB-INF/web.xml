@@ -9,15 +9,15 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
-  <servlet>
+   <servlet>
     <description></description>
-    <display-name>Customer</display-name>
-    <servlet-name>Customer</servlet-name>
-    <servlet-class>customerPackage.Customer</servlet-class>
+    <display-name>CheckInCheckOut</display-name>
+    <servlet-name>CheckInCheckOut</servlet-name>
+    <servlet-class>customerPackage.CheckInCheckOut</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Customer</servlet-name>
-    <url-pattern>/Customer</url-pattern>
+    <servlet-name>CheckInCheckOut</servlet-name>
+    <url-pattern>/CheckInCheckOut</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
@@ -31,42 +31,12 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>Room</display-name>
-    <servlet-name>Room</servlet-name>
-    <servlet-class>roomPackage.Room</servlet-class>
+    <display-name>RoomManagement</display-name>
+    <servlet-name>RoomManagement</servlet-name>
+    <servlet-class>roomPackage.RoomManagement</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Room</servlet-name>
-    <url-pattern>/Room</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description>rooms are matched to booking wishes</description>
-    <display-name>Matching</display-name>
-    <servlet-name>Matching</servlet-name>
-    <servlet-class>matchingPackage.Matching</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Matching</servlet-name>
-    <url-pattern>/Matching</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>GetRoom</display-name>
-    <servlet-name>GetRoom</servlet-name>
-    <servlet-class>roomPackage.GetRoom</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>GetRoom</servlet-name>
-    <url-pattern>/GetRoom</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>DeleteRoom</display-name>
-    <servlet-name>DeleteRoom</servlet-name>
-    <servlet-class>roomPackage.DeleteRoom</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>DeleteRoom</servlet-name>
-    <url-pattern>/DeleteRoom</url-pattern>
+    <servlet-name>RoomManagement</servlet-name>
+    <url-pattern>/RoomManagement</url-pattern>
   </servlet-mapping>
 </web-app>
